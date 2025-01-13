@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/dashboard/static/css/main.37311c28.css",
+    "main.js": "/dashboard/static/js/main.83528092.js",
+    "static/media/login-img.png": "/dashboard/static/media/login-img.ff5ab3a64c8c9a425dc4.png",
+    "static/media/profile.png": "/dashboard/static/media/profile.9bc19a0f5525b39bedca.png",
+    "static/media/ser.svg": "/dashboard/static/media/ser.eee074bec9eabb9c6f71a65b0b324c0e.svg",
+    "static/media/inves.svg": "/dashboard/static/media/inves.6ca653b76235ca5a970fb365189b4f2d.svg",
+    "static/media/money.svg": "/dashboard/static/media/money.9782093aa3b1656ae11d00babe82d44b.svg",
+    "static/media/trans.svg": "/dashboard/static/media/trans.b5d31aad5575f20342a9eb82d4182f7e.svg",
+    "static/media/notify.svg": "/dashboard/static/media/notify.f5678793ab174d7a02a7a94fcd29f82a.svg",
+    "static/media/credit.svg": "/dashboard/static/media/credit.2940e56afb17d8a5e95b3b3872f2ef03.svg",
+    "static/media/user.svg": "/dashboard/static/media/user.cfb80fad826a09b50bee0e801fe87897.svg",
+    "static/media/setting.svg": "/dashboard/static/media/setting.c98054983e54f9d0d46d3edc08fa3ab2.svg",
+    "static/media/google.svg": "/dashboard/static/media/google.f9af53a64c443639703217c03f47ae95.svg",
+    "static/media/home.svg": "/dashboard/static/media/home.edc30034a7b8671d2201a78b22b2bec3.svg",
+    "index.html": "/dashboard/index.html",
+    "main.37311c28.css.map": "/dashboard/static/css/main.37311c28.css.map",
+    "main.83528092.js.map": "/dashboard/static/js/main.83528092.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.37311c28.css",
+    "static/js/main.83528092.js"
+  ]
+}
