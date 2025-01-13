@@ -40,7 +40,7 @@ export const Sidebar = () => {
             </div>
             <div className="flex gap-6 items-center text-gray-500 absolute bottom-10">
                 <img src={setting} alt="" />
-                <Link to="/">Logout</Link>
+                <Link to="/login">Logout</Link>
             </div>
         </div>
     )

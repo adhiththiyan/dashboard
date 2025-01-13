@@ -6,7 +6,7 @@ import apple from "../../assests/images/apple.png"
 import { AiOutlineEye, AiOutlineEyeInvisible } from 'react-icons/ai';
 import { VerificationForm } from "./verify-otp";
 
-export const Login = () => {
+export const Login = ({setIsLogged}) => {
     const [passwordVisible, setPasswordVisible] = useState(false);
     const [email, setEmail] = useState('')
     const [password, setPassword] = useState('')
@@ -15,11 +15,6 @@ export const Login = () => {
         email:'',
         password:''
     })
-
-    useEffect(() => {
-        localStorage.setItem('email', 'example@gmail.com')
-        localStorage.setItem('password', '1234')
-    },[])
 
     const togglePasswordVisibility = (e) => {
       e.preventDefault()
@@ -31,8 +26,8 @@ export const Login = () => {
       };
     const handleSubmit = (e) => {
         e.preventDefault();
-        const storedEmail = localStorage.getItem('email');
-        const storedPassword = localStorage.getItem('password');
+        const storedEmail = "example@gmail.com"; 
+        const storedPassword = "1234";  
         let valid = true;
         const errors = { email: '', password: '' };
     
@@ -48,6 +43,7 @@ export const Login = () => {
         setError(errors);
     
         if (valid) {
+          setIsLogged(true)
           setShowVerification(true)
           generateOtp()
         }
