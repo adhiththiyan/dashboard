@@ -1,7 +1,9 @@
 # Demo Link
 
-[https://adhiththiyan.github.io](https://adhiththiyan.github.io/dashboard/
+https://adhiththiyan.github.io/dashboard
 
+#Email: example@gmail.com
+#password: 1234
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
